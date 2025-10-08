@@ -111,8 +111,9 @@ source ~/.bashrc
 3. Click ➕ Add Specific GOROOT
 
 4. Add each version:
+
 | Name       | Path                                        |
-| ---------- | ------------------------------------------- |
+|------------|---------------------------------------------|
 | Go 1.18.10 | `/home/your-username/go-versions/go1.18.10` |
 | Go 1.19.13 | `/home/your-username/go-versions/go1.19.13` |
 | Go 1.20.14 | `/home/your-username/go-versions/go1.20.14` |
@@ -128,6 +129,7 @@ source ~/.bashrc
 
 📁 Directory Structure
 After installation, your go-versions directory will look like this:
+```bash
 go-versions/
 ├── go1.18.10/             # Go 1.18.10 installation
 ├── go1.19.13/             # Go 1.19.13 installation
@@ -138,6 +140,7 @@ go-versions/
 ├── go-version-manager.sh  # Main management script
 ├── .gitignore
 └── README.md
+```
 
 🧼 Clean Installation
 If you want to start fresh:
